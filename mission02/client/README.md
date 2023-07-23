@@ -26,6 +26,7 @@
   `[...navUl.children]`로 `navUl`의 자식요소인`li`를 `list`라는 배열로 할당. 내가 선택하지 않은 모든 li에서 `is-active` 클래스 제거한다.
 </br>
 - attr()를 이용해 `mainImage`의 `src`,`alt`를 변경하도록 하였다.
+  
   ```js
   const selectedImg = button.querySelector("img");
   const src = selectedImg.getAttribute("src");
@@ -33,7 +34,8 @@
   attr(mainImage, "src", src);
   attr(mainImage, "alt", data[index - 1].alt);
   ```
-  </br>
+</br>
+
 - setName()을 이용해 `h1`의 텍스트를 `data`배열의 인덱스에 맞는 객체의 `name`값으로 바뀌도록 했다.
 
   ```js
