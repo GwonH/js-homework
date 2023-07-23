@@ -16,6 +16,7 @@
 
 - `handleSlider()`를 통해 `navigation`의 클릭이벤트를 수행한다. 
   </br>
+  
   ```js
   const list = [...navUl.children];
   const index = attr(target, "data-index");
