@@ -26,7 +26,7 @@
   `[...navUl.children]`로 `navUl`의 자식요소인`li`를 `list`라는 배열로 할당. 내가 선택하지 않은 모든 li에서 `is-active` 클래스 제거한다.
 
 - attr()를 이용해 `mainImage`의 `src`,`alt`를 변경하도록 하였다.
-  
+
   ```js
   const selectedImg = button.querySelector("img");
   const src = selectedImg.getAttribute("src");
@@ -44,6 +44,7 @@
   }
   ```
 - `data`배열의 `color`값으로 배경이 그라데이션 처리되도록 했다.
+- 
   ```js
   const backgroundColor = data[index - 1].color;
   const bgGradient = `linear-gradient(to bottom, ${backgroundColor[0]}, ${backgroundColor[1]})`;
