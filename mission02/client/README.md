@@ -6,6 +6,7 @@
 ## 🔖코드 설명
 - getNode함수로 필요한 node들을 변수에 할당하였다.  
 </br>
+
   ```js 
   const body = document.querySelector("body");
   const navigation = getNode(".nav");
